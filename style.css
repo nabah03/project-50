@@ -1,0 +1,80 @@
+
+h2{
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-right: 50px;
+}
+
+.header *  {
+
+    border: solid;
+}
+
+h3{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+body{
+    background-color: #fff555
+}
+
+
+a:link{
+    color: brown;
+}
+
+a:visited{
+    color: chartreuse;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu{
+    display:flex;
+    background-color:  bisque;
+    padding: 50px;
+   
+}
+.menu a{
+    padding-left:30px
+}
+
+.works{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.item{
+    position: relative;}
+.item h3{
+    position :absolute;
+    top : 50%;
+    left :50%;
+    transform: translate(-50%,-50%);
+    opacity: 0
+
+}
+
+.item :hover h3{
+    opacity:1;
+}
+
+.item :hover img{
+    opacity: 0.5;
+}
+
+.works{
+    background-color: darkgray;
+}
+
+
+
+
